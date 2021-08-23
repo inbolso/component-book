@@ -1,0 +1,148 @@
+@import 'https://cdn.jsdelivr.net/gh/inbolso/design-sytem@master/dist/design-system.css';
+
+.container-colors {
+  width: auto;
+  display: grid;
+  align-items: center;
+
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  gap: 24px;
+
+  padding: 24px 0;
+}
+
+.color {
+  border: 1px solid #e4e5eb;
+  border-radius: 4px;
+
+  width: 230px;
+  height: 250px;
+}
+
+.color span {
+  display: block;
+  width: 100%;
+  height: 70%;
+
+  background-color: orange;
+  border-radius: 4px 4px 0 0;
+}
+
+.color p {
+  margin: 0 !important;
+}
+
+.color .color__text-container {
+  padding: 12px;
+}
+
+.color__name {
+  color: #23252b !important;
+}
+
+.color__hex {
+  color: #abafba !important;
+}
+
+/* Colors */
+
+.color .color-brand-primary-darker {
+  background-color: #00632f;
+}
+
+.color .color-brand-primary-dark {
+  background-color: #009546;
+}
+
+.color .color-brand-primary-default {
+  background-color: #00c65e;
+}
+
+.color .color-brand-primary-light {
+  background-color: #5ae082;
+}
+
+.color .color-brand-primary-lighter {
+  background-color: #f2f7f4;
+}
+
+.color .color-brand-secondary-darker {
+  background-color: #07272d;
+}
+
+.color .color-brand-secondary-default {
+  background-color: #2842bf;
+}
+
+.color .color-brand-secondary-lighter {
+  background-color: #ebf2ff;
+}
+
+.color .color-gray-text-darker {
+  background-color: #161922;
+}
+
+.color .color-gray-text-dark {
+  background-color: #23252b;
+}
+
+.color .color-gray-text-default {
+  background-color: #3c3f47;
+}
+
+.color .color-gray-text-light {
+  background-color: #515561;
+}
+
+.color .color-gray-text-lighter {
+  background-color: #6c7180;
+}
+
+.color .color-gray-background-darker {
+  background-color: #abafba;
+}
+
+.color .color-gray-background-dark {
+  background-color: #cbced6;
+}
+
+.color .color-gray-background-default {
+  background-color: #e4e5eb;
+}
+
+.color .color-gray-background-light {
+  background-color: #f0f1f5;
+}
+
+.color .color-gray-background-lighter {
+  background-color: #f7f8fa;
+}
+
+.color .color-gray-background-input {
+  background-color: #fafbfc;
+}
+
+.color .color-ui-info-default {
+  background-color: #02abf9;
+}
+
+.color .color-ui-info-lighter {
+  background-color: #edf8fc;
+}
+
+.color .color-ui-warning-default {
+  background-color: #fcc605;
+}
+
+.color .color-ui-warning-lighter {
+  background-color: #fff9e5;
+}
+
+.color .color-ui-danger-default {
+  background-color: #ff404c;
+}
+
+.color .color-ui-danger-lighter {
+  background-color: #fff0f0;
+}
