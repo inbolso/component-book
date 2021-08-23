@@ -1,0 +1,50 @@
+@import 'https://cdn.jsdelivr.net/gh/inbolso/in-icons@v1.0.5-0/dist/all.css';
+
+.icon-container {
+  width: auto;
+  display: grid;
+  align-items: center;
+
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto;
+  gap: 24px;
+
+  padding: 24px 0;
+  text-align: center;
+}
+
+.icon__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon__box:hover div {
+  border-color: #5ae082;
+}
+
+.icon__box .description {
+  font-weight: 500;
+  color: #161922;
+}
+
+.icon__box div {
+  border: 1px solid #e4e5eb;
+  border-radius: 4px;
+  padding: 12px;
+  transition: border 200ms;
+}
+
+.icon__box div:hover {
+  border-color: #5ae082;
+}
+
+.icon__box i {
+  font-size: 24px;
+}
+
+.subtitle {
+  margin-top: 32px !important;
+  margin-bottom: 12px !important;
+}
