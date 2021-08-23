@@ -1,0 +1,9 @@
+@import 'https://cdn.jsdelivr.net/gh/inbolso/design-sytem@master/dist/design-system.css';
+
+.container__font {
+  display: block !important;
+}
+
+.container__font > * {
+  margin: 20px 0;
+}
